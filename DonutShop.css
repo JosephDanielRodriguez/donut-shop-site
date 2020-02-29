@@ -1,0 +1,61 @@
+body {
+    background-image: url(DonutShopBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Nav Bar Styling */
+li {
+    list-style-type: none;
+    text-align: center;
+    font-size: 30px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(250, 133, 201);
+    margin: 30px 650px 5px 650px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    background-color: rgb(255, 49, 221);
+}
+
+/* Picture Styling */
+#picture {
+    border: 8px double rgb(255, 49, 221);
+    width: 1000px;
+    height: 550px;
+}
+
+/* Side by side */
+.side {
+    display: inline-block;
+}
+
+/* Text styling */
+.text {
+    color: rgb(255, 49, 221);
+    text-shadow: -0.5px -0.5px 0 black, 0.5px -0.5px 0 black, -0.5px 0.5px 0 black, 0.5px 0.5px 0 black;
+    text-align: center;
+    font-size: 20px;
+    margin: 30px 400px 5px 400px;
+}
+
+.subtitle {
+    color: rgb(255, 49, 221);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-align: center;
+    font-size: 60px;
+}
+
+.textWhite {
+    color: white;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    text-align: center;
+    font-size: 20px;
+    margin: 30px 300px 5px 300px;
+}
